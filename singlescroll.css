@@ -1,0 +1,141 @@
+/*Google Fonts*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,600,700,300);
+@import url(reset.css);
+
+
+body{
+	background:url(images/gplaypattern.png);
+	background-attachment:fixed; /*background image doesn't scroll*/
+	font-family: 'Raleway', sans-serif;
+}
+header {
+	background-image:url(images/world.png);
+	height:auto;
+	width: auto;
+	color:#000;
+	background-size: cover;
+	text-align:center;
+	padding-top:20px;
+	margin-top:50px;
+}
+
+#samcircle{
+	margin: auto;
+	width:250px;
+	display:block;
+	margin-bottom:1px;
+	border: 3px solid #ccc;
+	-webkit-border-radius: 250px 250px 250px 250px;
+	border-radius: 250px 250px 250px 250px;
+}
+
+#wrapper{
+	width:960px;
+	margin:auto;
+	margin-bottom:700px; /*added space to bottom of wrapper so that page is long enough that contact section pops to top of screen when navigated to*/
+}
+
+#about {
+	padding-top: 200px;
+}
+
+
+header h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size:3em;
+	text-align:center;
+	padding-top:200px;
+	text-shadow: 2px 2px 2px #FFFFFF;
+
+}
+
+h2{
+	font-size:2em;
+	margin-bottom:0.3em;
+	margin-top:0.5em;
+	color:#FF7F00;
+}
+
+p {margin-bottom:1em;}
+
+section{
+	padding-top:50px;
+	padding-bottom:20px;
+}
+
+/* NAV STYLES */
+
+nav {
+	background-color: #000;
+	height:50px;
+	position: fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	text-align: center;
+	z-index: 3;
+}
+
+nav li{
+	display: inline;
+}
+
+nav li a{
+	/* first valu is T/B second is L/R */
+	padding:0px 20px;
+	line-height:30px;
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+section .glyphicon {
+	color: #BF4A54;
+	font-size: 30px;
+}
+
+/* Skills Section Styles */
+section #skills{
+	padding: 0px;
+	width:100%;
+	padding-left:20px;
+	background-color: #ffffff;
+	float: left;
+	border: 1px solid blue;
+
+}
+
+div #computerskills {
+	webkit-column-count: 3;
+}
+
+#computerskills{
+	padding: 20px;
+	margin: auto;
+	width:70%;
+	padding-left:40px;
+	background-color: #ffffff;
+	float: left;
+	border: 1px solid blue;
+}
+
+#socialmedia {
+	padding: 20px;
+	margin: auto;
+	width:70%;
+	padding-left:40px;
+	background-color: #ffffff;
+	float: left;
+	border: 1px solid blue;
+}
+
+
+/* Contact Styles */
+
+#contact{
+	color: #F2F2F2;
+	font-size: 12px;
+	padding: 10px;
+
+}
